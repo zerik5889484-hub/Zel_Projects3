@@ -3,95 +3,92 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Zel_Projects</title>
-
+<title>ZEL Projects</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<canvas id="bg"></canvas>
+
 <!-- 🔥 LOADER -->
 <div id="loader">
-  <div class="loader-logo">Zel_Projects</div>
-  <div class="loader-bar"></div>
+  <div class="loader-text">ZEL Projects</div>
+  <div class="loader-circle"></div>
 </div>
 
-<!-- 🚀 START -->
-<section id="start" class="start">
-  <div class="logo">Zel_Projects</div>
-  <button id="startBtn">Перейти</button>
-</section>
+<!-- 🌐 HEADER -->
+<header id="menu">
 
-<!-- 🌐 MENU -->
-<nav id="menu">
-  <div class="brand">Zel_Projects</div>
+  <div class="brand">ZEL Projects</div>
 
-  <div class="links">
-    <a href="#home">Главная</a>
-    <a href="#gallery">Галерея</a>
-    <a href="#install">Установка</a>
-  </div>
-</nav>
+  <div id="burger">☰</div>
+
+  <nav id="nav">
+    <a data-page="home" class="active">Главная</a>
+    <a data-page="gallery">Галерея</a>
+    <a data-page="install">Установка</a>
+  </nav>
+
+</header>
 
 <!-- 🏠 HOME -->
-<section id="home" class="page hidden">
+<section id="home" class="page active">
+  <div class="container">
 
-  <div class="section-title">Zel_Projects</div>
+    <h1>ZEL Projects</h1>
 
-  <h1>О нас</h1>
+    <p>
+      Мы — молодая студия Minecraft-разработки, создающая уникальные карты, мини-игры и приключения.
+    </p>
 
-  <div class="text">
-    Мы — команда разработчиков, создающих контент для Minecraft.<br><br>
+    <p>
+      🎮 Приключенческие карты с сюжетом и квестами<br>
+      👻 Хоррор-карты с атмосферой страха и напряжения<br>
+      ⚔ PvP и арены для игроков<br>
+      🧩 Головоломки и механики<br>
+      🌍 Большие детализированные миры
+    </p>
 
-    🔹 Строительство уникальных карт (Adventure / Survival / PvP)<br>
-    🔹 Разработка игровых режимов и механик<br>
-    🔹 Создание мини-игр и ивентов<br>
-    🔹 Настройка серверов Minecraft<br>
-    🔹 Дизайн детализированных миров и локаций<br><br>
+    <p>
+      На сайте вы можете просматривать наши проекты и следить за развитием студии.
+    </p>
 
-    Мы создаём не просто карты — мы создаём живые игровые миры.
   </div>
-
 </section>
 
 <!-- 📸 GALLERY -->
-<section id="gallery" class="page hidden">
+<section id="gallery" class="page">
+  <div class="container">
+    <h1>Галерея</h1>
 
-  <div class="section-title">Zel_Projects</div>
-  <h1>Галерея</h1>
+    <div class="grid">
+      <div class="card">В разработке</div>
+      <div class="card">В разработке</div>
+      <div class="card">В разработке</div>
+      <div class="card">В разработке</div>
+      <div class="card">В разработке</div>
+      <div class="card">В разработке</div>
+    </div>
 
-  <div class="grid">
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
   </div>
-
 </section>
 
 <!-- ⚙️ INSTALL -->
-<section id="install" class="page hidden">
+<section id="install" class="page">
+  <div class="container">
+    <h1>Установка</h1>
 
-  <div class="section-title">Zel_Projects</div>
-  <h1>Установка</h1>
+    <div class="grid">
+      <div class="card">В разработке</div>
+      <div class="card">В разработке</div>
+      <div class="card">В разработке</div>
+      <div class="card">В разработке</div>
+      <div class="card">В разработке</div>
+      <div class="card">В разработке</div>
+    </div>
 
-  <div class="grid">
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
-    <div class="card">В разработке</div>
   </div>
-
 </section>
 
 <script src="script.js"></script>

@@ -1,7 +1,7 @@
 window.addEventListener("load", () => {
   setTimeout(() => {
     document.getElementById("loader").style.display = "none";
-  }, 800); // быстрее загрузка
+  }, 1500);
 });
 
 document.getElementById("startBtn").addEventListener("click", () => {
